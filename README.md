@@ -3,17 +3,26 @@ Real Estate Price Prediction project comparing Linear Regression (simple baselin
 
 
 🏠 Real Estate Price Prediction: Linear Regression vs. XGBoostProject 
+
 🎯 Project Goals
-The objective of this project is twofold:To build robust regression models capable of predicting property sale prices based on various structural and locational features.To conduct a rigorous comparative analysis between a simple, interpretable model (Linear Regression) and a highly accurate, complex ensemble model (XGBoost) to assess the trade-off between model simplicity and predictive performance on a non-linear dataset.
+
+The objective of this project is twofold: To build robust regression models capable of predicting property sale prices based on various structural and locational features. To conduct a rigorous comparative analysis between a simple, interpretable model (Linear Regression) and a highly accurate, complex ensemble model (XGBoost) to assess the trade-off between model simplicity and predictive performance on a non-linear dataset.
 
 
 🛠️ Methodology & Workflow
+
 The project follows a standard Data Science lifecycle:
+
 Data Acquisition: Loading the raw real estate transaction dataset.
+
 Exploratory Data Analysis (EDA): Visualizing feature distributions, checking correlations, and identifying potential outliers.
+
 Data Preprocessing: Handling missing values (Imputation). Managing categorical variables (One-Hot Encoding). Feature engineering (Creating new, insightful variables). Outlier detection and removal.
+
 Model Training & Tuning: Training the baseline Linear Regression model. Training and optimizing the XGBoost Regressor using techniques like Grid Search CV for hyperparameter tuning.
+
 Model Evaluation: Assessing performance using metrics such as MSE and R².
+
 Comparative Analysis: Directly comparing the metrics and insights from both models to draw conclusions on the best approach for this prediction task.
 
 
