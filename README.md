@@ -1,4 +1,4 @@
-# real_estate_price_prediction
+# Real Estate price prediction using Linear Regression and XGBoosting and Comparative Analysis of model performance
 Real Estate Price Prediction project comparing Linear Regression (simple baseline) and XGBoost (high-performance ensemble) for valuation. Focuses on data cleaning, feature engineering, hyperparameter tuning, and comparing accuracy to find the optimal model.
 
 
@@ -38,7 +38,7 @@ Language: Python
   Boosting Framework: XGBoost
   
 ▶️ How to Run the ProjectClone the repository:
-  git clone [https://github.com/YourUsername/real_estate_price_prediction.git](https://github.com/real-rayezwtkl/real_estate_price_prediction.git)
+  git clone https://github.com/real-rayezwtkl/real_estate_price_prediction.git
   cd real_estate_price_prediction
 
   Install dependencies:It is recommended to use a virtual environment.
