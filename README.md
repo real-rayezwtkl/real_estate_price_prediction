@@ -41,9 +41,5 @@ Language: Python
   git clone https://github.com/real-rayezwtkl/real_estate_price_prediction.git
   cd real_estate_price_prediction
 
-  Install dependencies:It is recommended to use a virtual environment.
-  pip install -r requirements.txt
-
   Run the analysis:
-  Open the main Jupyter Notebook to execute the entire workflow from data cleaning to model comparison:
-  jupyter notebook notebooks/2_Model_Comparison.ipynb
+  Open the main Jupyter Notebook to execute the entire workflow from data cleaning to model comparison
