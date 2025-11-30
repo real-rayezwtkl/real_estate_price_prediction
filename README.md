@@ -1,5 +1,5 @@
 # Real Estate price prediction using Linear Regression and XGBoosting and Comparative Analysis of model performance
-Real Estate Price Prediction project comparing Linear Regression (simple baseline) and XGBoost (high-performance ensemble) for valuation. Focuses on data cleaning, feature engineering, hyperparameter tuning, and comparing accuracy to find the optimal model.
+Real Estate Price Prediction project comparing Linear Regression (simple baseline) and XGBoost (high-performance ensemble) for valuation. Focuses on data cleaning, feature engineering, training, and comparing accuracy to find the optimal model.
 
 
 🏠 Real Estate Price Prediction: Linear Regression vs. XGBoostProject 
@@ -19,7 +19,7 @@ Exploratory Data Analysis (EDA): Visualizing feature distributions, checking cor
 
 Data Preprocessing: Handling missing values (Imputation). Managing categorical variables (One-Hot Encoding). Feature engineering (Creating new, insightful variables). Outlier detection and removal.
 
-Model Training & Tuning: Training the baseline Linear Regression model. Training and optimizing the XGBoost Regressor using techniques like Grid Search CV for hyperparameter tuning.
+Model Training: Training the baseline Linear Regression model and the XGBoost Regressor
 
 Model Evaluation: Assessing performance using metrics such as MSE and R².
 
@@ -35,13 +35,17 @@ Based on the final evaluation metrics:
 
 The Linear Regression (LR) model unexpectedly outperformed the XGBoost Regressor, achieving a higher R² score of 0.5497 and a lower Mean Squared Error of 124.5794.
 
-Conclusion: In this specific analysis, the LR model proved to be the superior predictor. This suggests that the relationship between the features and the target price in the analyzed dataset may be more predominantly linear than initially assumed, or that the XGBoost model's configuration required further, extensive hyperparameter optimization to realize its potential gain over the simple linear baseline.
+Conclusion: In this specific analysis, the LR model proved to be the superior predictor. This suggests that the relationship between the features and the target price in the analyzed dataset may be more predominantly linear than initially assumed, or that the XGBoost model's configuration required hyperparameter optimization to realize its potential gain over the simple linear baseline.
 
 Tech Stack
 Language: Python
+
   Core Libraries: pandas, numpy
+  
   Visualization: matplotlib, seaborn
+  
   Modeling: scikit-learn
+  
   Boosting Framework: XGBoost
   
 ▶️ How to Run the ProjectClone the repository:
