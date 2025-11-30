@@ -19,12 +19,10 @@ Comparative Analysis: Directly comparing the metrics and insights from both mode
 
 🚀 Key Results & Conclusion
 Based on the final evaluation metrics:
-
-Model                                        R-squared (R²)                          Mean Squared Error (MSE)
-
-Linear Regression (LR)                       0.5497                                  124.5794
-
-XGBoost Regressor                            0.4526                                  151.4235
+| Model | R-squared (R²) | Mean Squared Error (MSE) |
+| :------: | :------: | :------: |
+| Linear Regression (LR) | 0.5497 | 124.5794 |
+| XGBoost Regressor | 0.4526 | 151.4235 |
 
 The Linear Regression (LR) model unexpectedly outperformed the XGBoost Regressor, achieving a higher R² score of 0.5497 and a lower Mean Squared Error of 124.5794.
 
